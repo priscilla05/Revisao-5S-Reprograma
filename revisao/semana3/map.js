@@ -3,8 +3,6 @@
 const turma = require('./dados')
 
 const listaNomes = turma.map((aluna) => {
-    return aluna.name
-})
+return aluna.nome})
 
-// me retorna a lista ordenada
 console.log(listaNomes.sort())
